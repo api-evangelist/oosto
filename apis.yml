@@ -1,8 +1,26 @@
 aid: oosto
 name: Oosto
-description: 'Oosto is a company surfaced as a portfolio company of softbank-vision-fund and added to
-  the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Oosto (formerly AnyVision) is an enterprise vision-AI company providing
+  real-time facial recognition, watchlist alerting, and video analytics for physical
+  security, safety, and touchless access control. Its platform spans OnWatch real-time
+  watchlist monitoring, OnAccess touchless facial-recognition access control, and Oosto
+  Protect edge-to-cloud video analytics (person-of-interest detection, body/skeleton
+  and pose/action recognition, and liveness detection), delivered via cloud, on-premises,
+  and SDK deployments and integrating with existing VMS and camera systems. Backed by
+  SoftBank Vision Fund. Oosto exposes no public self-serve developer API; its technical
+  documentation lives in a login-gated partner knowledge base.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://oosto.com/wp-content/uploads/2024/04/oosto-home-social.png
 url: https://raw.githubusercontent.com/api-evangelist/oosto/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +30,45 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Enterprise
+- Facial Recognition
+- Computer Vision
+- Video Analytics
+- Physical Security
+- Access Control
+- Artificial Intelligence
+- Biometrics
 apis: []
+common:
+- type: DomainSecurity
+  url: security/oosto-domain-security.yml
+- type: Website
+  url: https://oosto.com
+- type: Documentation
+  url: https://knowledge.oosto.com/docs/
+  name: Oosto Knowledge Base (login-gated)
+- type: Support
+  url: https://oosto.com/support/
+- type: Blog
+  url: https://oosto.com/blog/
+- type: BlogRSS
+  url: https://oosto.com/blog/feed/
+- type: TermsOfService
+  url: https://oosto.com/terms/
+- type: PrivacyPolicy
+  url: https://oosto.com/privacy/
+- type: GitHubOrganization
+  url: https://github.com/oosto
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
