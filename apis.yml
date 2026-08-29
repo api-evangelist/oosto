@@ -9,6 +9,17 @@ description: 'Oosto (formerly AnyVision) is an enterprise vision-AI company prov
   and SDK deployments and integrating with existing VMS and camera systems. Backed by
   SoftBank Vision Fund. Oosto exposes no public self-serve developer API; its technical
   documentation lives in a login-gated partner knowledge base.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
