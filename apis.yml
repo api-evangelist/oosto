@@ -33,6 +33,10 @@ accessModel:
   method: derived
 image: https://oosto.com/wp-content/uploads/2024/04/oosto-home-social.png
 url: https://raw.githubusercontent.com/api-evangelist/oosto/refs/heads/main/apis.yml
+x-status: acquired
+x-acquired-by: metropolis-technologies
+x-acquired: '2025-01'
+x-status-note: 'Metropolis Technologies acquired Oosto (formerly AnyVision) in January 2025 in an all-stock deal valued at USD 125M; oosto.com still answers 200 (2026-10-03). Source: https://www.biometricupdate.com/202501/oosto-bought-for-125m-far-less-than-352m-raised-but-6x-annual-revenues (roadmap#908).'
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -46,12 +50,13 @@ tags:
 - Company
 - Enterprise
 - Facial Recognition
-- Computer-Vision
+- Computer Vision
 - Video Analytics
 - Physical Security
 - Access Control
 - Artificial Intelligence
 - Biometrics
+- Acquired
 tags_raw:
 - Company
 - Enterprise
@@ -62,6 +67,8 @@ tags_raw:
 - Access Control
 - Artificial Intelligence
 - Biometrics
+- Computer-Vision
+- Acquired
 apis: []
 common:
 - type: DomainSecurity
