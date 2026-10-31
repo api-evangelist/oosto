@@ -64,6 +64,62 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Oosto is a company surfaced as a portfolio company of softbank-vision-fund and added to the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the enrichment pipeline.
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: softbank-vision-fund
+Oosto (formerly AnyVision) is an enterprise vision-AI company providing real-time facial recognition, watchlist alerting, and video analytics for physical security, safety, and touchless access control. Its platform spans OnWatch real-time watchlist monitoring, OnAccess touchless facial-recognition access control, and Oosto Protect edge-to-cloud video analytics (person-of-interest detection, body/skeleton and pose/action recognition, and liveness detection), delivered via cloud, on-premises, and SDK deployments and integrating with existing VMS and camera systems. Backed by SoftBank Vision Fund. Oosto exposes no public self-serve developer API; its technical documentation lives in a login-gated partner knowledge base.
+
+**Areas:** Company · Enterprise · Facial Recognition · Computer Vision · Video Analytics · Physical Security · Access Control · Artificial Intelligence · Biometrics · Acquired · Surveillance · Edge AI
+
+## Oosto on APIs.io (historical record)
+
+Everything profiled for Oosto is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/oosto/](https://apis.io/providers/oosto/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Oosto OnWatch API](https://apis.io/apis/oosto/oosto-onwatch-api/) — Per-deployment REST API and Socket.IO event stream for Oosto OnWatch, the real-time watchlist alerting and person-of-interest monitoring product. Served…
+- [Oosto OnAccess API](https://apis.io/apis/oosto/oosto-onaccess-api/) — Per-deployment REST API for Oosto OnAccess, the facial access-control product (internal codename "Abraxas"), served from the customer's own OnAccess server…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Anyvision Onwatch Events](https://apis.io/asyncapis/oosto/anyvision-onwatch-events/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Anyvision Authentication](https://apis.io/security/oosto/anyvision-authentication/)
+- [Oosto Domain Security](https://apis.io/security/oosto/oosto-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://oosto.com)
+- [Documentation](https://knowledge.oosto.com/docs/)
+- [Support](https://oosto.com/support/)
+- [Blog](https://oosto.com/blog/)
+- [Terms of service](https://oosto.com/terms/)
+- [Privacy policy](https://oosto.com/privacy/)
+- [GitHub](https://github.com/oosto)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Oosto: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/oosto/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
